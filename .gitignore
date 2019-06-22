@@ -1,5 +1,9 @@
 # Built application files
 build/
+# Встроенные файлы приложений
+* .apk
+* .ap_
+* .aab
 
 # Files for the ART/Dalvik VM
 *.dex
@@ -38,3 +42,18 @@ google-services.json
 
 # Version control
 vcs.xml
+# ОС-специфичные файлы
+.DS_Store
+.DS_Store?
+._ *
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# линт
+ворс / промежуточные /
+ворс / генерироваться /
+ворс / выходы /
+пух / TMP /
+пух / отчеты /
