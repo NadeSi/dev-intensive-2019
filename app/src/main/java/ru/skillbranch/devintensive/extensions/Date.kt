@@ -37,6 +37,4 @@ enum class TimeUnits{
     DAY
 }
 
-fun Date.humanizeDiff(date: Date? = Date()): String? {
-    TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-}
+fun Date.humanizeDiff(date: Date? = Date()): String? = "${if(date == null) " " else date.format("HH.mm.ss")}"
